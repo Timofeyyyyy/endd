@@ -43,6 +43,8 @@ function validateForm() {
   }
 
   if (!isValid) {
+    alert("Пожалуйста, заполните все поля корректно.");
+    return false;
   }
 
   var ukrainePrefixes = [
