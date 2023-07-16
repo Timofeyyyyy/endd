@@ -15,10 +15,6 @@
   transition: transform 0.5s;
 }
 
-body {
-  overflow: hidden;
-}
-
 .quiz.active {
   transition: 0.3a all;
   transform: translateY(0%);
@@ -40,7 +36,7 @@ body {
   background: #fefefe;
   width: 620px;
   border-radius: 30px;
-  height: 680px;
+  height: 650px;
 }
 .quiz__wrapper .quiz__form {
   display: flex;

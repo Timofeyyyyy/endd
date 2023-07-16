@@ -66,15 +66,6 @@
   .main__fon {
     width: 500px;
   }
-  .quiz__done_block {
-    position: absolute;
-    transform: translateY(-100%);
-    opacity: 0;
-    visibility: hidden;
-    width: 100%;
-    background: #fefefe;
-    border-radius: 30px;
-  }
 }
 @media (max-width: 1200px) {
   .left-side {
@@ -90,7 +81,7 @@
     transform: translateY(-100%);
     opacity: 0;
     visibility: hidden;
-    width: 100%;
+
     background: #fefefe;
     border-radius: 30px;
   }
@@ -362,9 +353,7 @@
     font-weight: 600;
     text-align: center;
   }
-  .quiz__done_block {
-    width: 100%;
-  }
+
   .quiz__done_block .quiz__done_block_content {
     width: 100%;
     margin: 0 auto;
