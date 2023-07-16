@@ -2,7 +2,6 @@
 @media (max-width: 2000px) {
   .main {
     position: relative;
-    height: 100vh;
   }
   .main .main__fon {
     position: absolute;
@@ -14,7 +13,6 @@
 @media (max-width: 1900px) {
   .main {
     position: relative;
-    height: 100vh;
   }
   .main .main__fon {
     position: absolute;
@@ -26,7 +24,6 @@
 @media (max-width: 1800px) {
   .main {
     position: relative;
-    height: 100vh;
   }
   .main .main__fon {
     position: absolute;
@@ -42,7 +39,6 @@
 @media (max-width: 1700px) {
   .main {
     position: relative;
-    height: 100vh;
   }
   .main .main__fon {
     position: absolute;
@@ -54,7 +50,6 @@
 @media (max-width: 1600px) {
   .main {
     position: relative;
-    height: 100vh;
   }
   .main .main__fon {
     position: absolute;
@@ -148,7 +143,7 @@
   }
   .quiz__link_wrapper {
     position: absolute;
-    bottom: 50px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -770,7 +765,7 @@
     font-size: 12px;
   }
   .quiz__done_block {
-    height: 530px;
+    height: 550px;
   }
 } /*# sourceMappingURL=adaptiv.css.map */
 @media (max-width: 400px) {
