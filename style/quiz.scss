@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   opacity: 1;
-  height: 100vh;
+
   width: 100%;
   background-repeat: no-repeat;
   background: url(./quiz_fon.png);
@@ -15,7 +15,6 @@
   transition: transform 0.5s;
 }
 body {
-  overflow: hidden;
 }
 .quiz.active {
   transition: 0.3a all;

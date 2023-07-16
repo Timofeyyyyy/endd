@@ -164,7 +164,6 @@
     width: 700px;
   }
   .quiz__wrapper {
-    padding-top: 0;
   }
   .quiz__wrapper .quiz__block {
     background: #fefefe;
@@ -666,7 +665,7 @@
     font-weight: 600;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .container {
     width: 330px;
     margin: 0 auto;
@@ -774,3 +773,9 @@
     height: 530px;
   }
 } /*# sourceMappingURL=adaptiv.css.map */
+@media (max-width: 400px) {
+  .left-side__card_wrapper .left-side__card {
+    width: 120px;
+    height: 100px;
+  }
+}
