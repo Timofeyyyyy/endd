@@ -59,7 +59,13 @@
   width: 145px;
   height: 45px;
   border: none;
-  background: linear-gradient(5.75deg, #008752 -124.73%, #11a86d -22.8%, #31cc8f 205.43%, #24b57c 300.71%);
+  background: linear-gradient(
+    5.75deg,
+    #008752 -124.73%,
+    #11a86d -22.8%,
+    #31cc8f 205.43%,
+    #24b57c 300.71%
+  );
   border-radius: 12px;
   font-weight: 700;
   color: #ffffff;
@@ -91,4 +97,4 @@
   width: 100%;
   opacity: 1;
   z-index: 10;
-}/*# sourceMappingURL=cashe.css.map */
+} /*# sourceMappingURL=cashe.css.map */

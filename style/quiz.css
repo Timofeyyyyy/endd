@@ -125,6 +125,7 @@ body {
 }
 
 .quiz__item {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   color: #002f1c;
@@ -225,7 +226,13 @@ body {
 }
 .form-done .form-done_submit {
   width: 100%;
-  background: linear-gradient(5.75deg, #008752 -124.73%, #11a86d -22.8%, #31cc8f 205.43%, #24b57c 300.71%);
+  background: linear-gradient(
+    5.75deg,
+    #008752 -124.73%,
+    #11a86d -22.8%,
+    #31cc8f 205.43%,
+    #24b57c 300.71%
+  );
   cursor: pointer;
   border-radius: 16px;
   height: 60px;
@@ -256,6 +263,7 @@ body {
 .form-done .form-done__phone_wrapper {
   position: relative;
 }
+
 .form-done .form-done__phone_wrapper .form-done__flag {
   position: absolute;
   top: 7px;
@@ -271,7 +279,7 @@ body {
   border-radius: 11px;
 }
 .form-done .form-done__inut_tell {
-  width: 260px;
+  width: 350px;
   height: 54px;
   outline: none;
   border-radius: 16px;
@@ -309,7 +317,9 @@ body {
   position: absolute;
   z-index: -2;
 }
-.checkbox-wrapper .checkbox-wrapper__checkbox:checked + .checkbox-wrapper__custom::before {
+.checkbox-wrapper
+  .checkbox-wrapper__checkbox:checked
+  + .checkbox-wrapper__custom::before {
   transform: translate(-50%, -50%) scale(1);
 }
 .checkbox-wrapper .checkbox-wrapper__link {
@@ -320,7 +330,13 @@ body {
   position: relative;
   width: 16px;
   height: 16px;
-  background: linear-gradient(5.75deg, #008752 -124.73%, #11a86d -22.8%, #31cc8f 205.43%, #24b57c 300.71%);
+  background: linear-gradient(
+    5.75deg,
+    #008752 -124.73%,
+    #11a86d -22.8%,
+    #31cc8f 205.43%,
+    #24b57c 300.71%
+  );
   border-radius: 3px;
 }
 .checkbox-wrapper .checkbox-wrapper__custom::before {
@@ -499,4 +515,4 @@ body {
   position: absolute;
   top: 20px;
   right: 30px;
-}/*# sourceMappingURL=quiz.css.map */
+} /*# sourceMappingURL=quiz.css.map */

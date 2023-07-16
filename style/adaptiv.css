@@ -490,8 +490,14 @@
   .pop-up__fon .pop-up .pop-up__close {
     cursor: pointer;
     position: absolute;
-    top: 20px;
+    top: 50px;
     right: 10px;
+  }
+  .pop-up__fon .pop-up .pop-up__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 70px 20px;
   }
   .pop-up__fon .pop-up__content {
     display: flex;
@@ -540,9 +546,10 @@
   .pop-up__fonn .pop-up .pop-up__close {
     cursor: pointer;
     position: absolute;
-    top: 30px;
+    top: 40px;
     right: 10px;
   }
+
   .quiz__slide {
     gap: 10px;
   }
@@ -573,6 +580,9 @@
     height: 43px;
     border-radius: 10px;
     border: 2px solid rgba(0, 0, 0, 0.1490196078);
+  }
+  #phone {
+    width: 350px;
   }
   .main .main__fon_hidden {
     display: block;
@@ -659,6 +669,10 @@
     color: #002f1c;
     font-weight: 600;
   }
+  .left-side__card_block .left-side__title_card {
+    text-align: center;
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 450px) {
   .container {
@@ -700,6 +714,9 @@
   }
   .form-done .form-done__inut_tell:focus {
     border: 2px solid #1ab276;
+  }
+  #phone {
+    width: 300px;
   }
   .form-done .form-done__inut {
     width: 280px;
